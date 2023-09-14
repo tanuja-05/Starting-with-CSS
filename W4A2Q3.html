@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    nav{
+        background-color: #4f4fc9;
+        padding: 40px;
+        margin: 10px;
+        
+    }
+    a{
+        color: aliceblue;
+        margin-right: 30px;
+        text-align: center;
+    }
+    a:hover{
+        color: yellow;
+    }
+    a[href*="home"]{
+        border-style: dashed;
+        padding: 15px;
+
+    }
+    a[href*="about us"]{
+        border-style: dotted;
+        padding: 15px;
+    }
+    a[href*="contact"]{
+        border-style: solid;
+        padding: 15px;
+    }
+    a[href*="blog"]{
+        border-style: double;
+        padding: 15px;
+    }
+    a[href*="login"]{
+        border-style: groove;
+        padding: 15px;
+    }
+
+    
+    </style>
+<body>
+    <nav class="change">
+        <a href="#home" target="_blank">Home</a>
+        <a href="#about us" target="_blank">About us</a>
+        <a href="#contact" target="_blank">Contact</a>
+        <a href="#blog" target="_blank">Blog</a>
+        <a href="#login" target="_blank">Login</a>
+    </nav>
+</body>
+</html>
